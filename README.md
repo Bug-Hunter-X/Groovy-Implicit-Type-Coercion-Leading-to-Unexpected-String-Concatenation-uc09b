@@ -1,0 +1,3 @@
+This repository demonstrates a subtle bug in Groovy related to implicit type coercion. The `myMethod` function is intended to add two numbers, but due to Groovy's flexible typing, passing a number and a string results in string concatenation.
+
+The `bug.groovy` file shows the erroneous code, while `bugSolution.groovy` provides a corrected version that explicitly handles type checking to prevent this issue.
